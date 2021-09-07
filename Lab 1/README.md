@@ -88,6 +88,9 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 \*\***Summarize feedback you got here.**\*\*
 
+Xiaotian Liu (xl467):
+Would be a very useful tool for WFH mothers! The illustration is cute and clear. If empowered by a sensitive babyface detector, I believe the device can really help to avoid unexpected meeting interuptions.
+
 Roommates: The idea is great and interesting. Could be useful to the parents given the current scenario. Also try to communicate the urgency or intensity of the baby’s crying to the parent.
 
 ## Part B. Act out the Interaction
