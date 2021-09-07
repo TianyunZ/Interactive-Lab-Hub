@@ -138,6 +138,8 @@ Now, change the goal within the same setting, and update the interaction with th
 
 \*\***Show the follow-up work here.**\*\*
 
+https://user-images.githubusercontent.com/50896698/132270679-29687188-1d09-42b7-85cc-d06e3f96fcd1.MP4
+
 
 ## Part E. Costume the device
 
