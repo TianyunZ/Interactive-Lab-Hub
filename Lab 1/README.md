@@ -183,6 +183,8 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+One feedback I think is useful is that we can add more sensors besides just microphone to monitor the baby. Add a humidity senor to track if the baby need to change diaper. A motion tracker to monitor if the baby is moving irregularly.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
