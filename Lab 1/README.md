@@ -233,7 +233,7 @@ Players: Parent who is working from home and a baby
 
 Activity: The baby is in a room and the parent is on a zoom meeting in a different room.
 
-Goals: Instead of the parent getting a loud noise on the baby monitor, a light source flashes along with an alert on the smartwatch alerting the parents of the child awake or crying. This can help parents who are working from home to monitor their babies in a non-intrusive way using light.
+Goals: Instead of the parent getting a loud noise on the baby monitor, a light source flashes along with an alert on the smartwatch alerting the parents of the child awake or crying. To be detailed, when the baby is awake, the light source and the smartwatch will flash yellow light. And when the baby is crying, the light source and the samrtwatch will flash red light. This can help parents who are working from home to monitor their babies in a non-intrusive way using light.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
