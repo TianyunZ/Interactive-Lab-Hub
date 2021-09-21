@@ -175,6 +175,7 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
+The code is updated.
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
@@ -192,9 +193,17 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+<a align="center" href="https://drive.google.com/file/d/1kOohLkyI-i8wlbEUX38j29io7lQsBDj0/view?usp=sharing">
+	<img src="record.png" alt="setup" width="600">
+</a>
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+- Add sensors to detect users' gestures, so that users can use gesture to control the clock.
+- Use sensors to detect the light in environment, and make the screen light vary with the lightness degree.
+- Use cartoon icon to indicate Monday to Sunday in a week.
+- Add weather icon, and modify the icon according to the variance of weather data.
 
 # Prep for Part 2
 
