@@ -193,6 +193,8 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+The background changes with the time in one day, from morning to night. The orange circle indicates the sun which starts rising from 6 am and starts falling down from 12 pm. And the yellow circle indicates the moon which rising from 18 pm and falling down from 0 am. When pressing button A, the detailed time will be shown on the screen, and when pressing button B, the background will change to current season.
+
 <a align="center" href="https://drive.google.com/file/d/1kOohLkyI-i8wlbEUX38j29io7lQsBDj0/view?usp=sharing">
 	<img src="record.png" alt="setup" width="600">
 </a>
