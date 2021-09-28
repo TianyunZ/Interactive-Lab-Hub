@@ -138,6 +138,23 @@ while True:
         draw.text((x, y), cur_time, font=font, fill="#000000")
     if not buttonB.value and buttonA.value:  # just button B pressed
         image = process_img(season, width, height)
+    if not buttonB.value and not buttonA.value:
+        weekday = time.strftime("%A")
+        w = int(time.strftime("%w"))
+        image = process_img("map", width, height)
+        draw = ImageDraw.Draw(image)
+
+        routes = [(170, 18), (100, 18), (44, 46), (115, 59), (173, 67), (120, 100), (44, 110)]
+        for x, y in routes[:w]:
+            draw.ellipse((x, y, x + 15,  y + 15), fill="#910b09")
+        x, y = routes[w]
+        draw.ellipse((x, y, x + 15,  y + 15), fill="#fc0400")
+        for x, y in routes[w+1:]:
+            draw.ellipse((x, y, x + 15,  y + 15), fill="#f7a2a1")
+        x, y = routes[w][0]-20, routes[w][1]-15
+        font2 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 15)
+        for i in range(5):
+            draw.text((x, y), weekday, font=font2, fill="#fc0400")
     disp.image(image, rotation)
 
     # time.sleep(0.3)
