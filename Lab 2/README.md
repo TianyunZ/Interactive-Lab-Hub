@@ -212,6 +212,9 @@ The background changes with the time in one day, from morning to night. The oran
 - Use cartoon icon to indicate Monday to Sunday in a week.
 - Add weather icon, and modify the icon according to the variance of weather data.
 
+Here is the sketch of using cartoon map to indicate Monday to Sunday in a week. The route starts from the right top corner, indicating Sunday, and ends at the left bottom corner, indicating Saturday. And on the road, each circle indicates a day from Monday to Friday. The past days show in dark red, the current day shows in bright red and the coming days show in pink.
+<img src="imgs/sketch.jpg" alt="setup" width="600">
+
 # Prep for Part 2
 
 1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
@@ -224,6 +227,16 @@ The background changes with the time in one day, from morning to night. The oran
 Pull Interactive Lab Hub updates to your repo.
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+
+- Mode 1 (default mode): The background changes with the time in one day, from morning to night. The orange circle indicates the sun which starts rising from 6 am and starts falling down from 12 pm. And the yellow circle indicates the moon which rising from 18 pm and falling down from 0 am.
+- Mode 2 (Press top button):  When pressing button A, the detailed time will be shown on the screen.
+- Mode 3 (Press bottom button): When pressing button B, the background will change to current season. Each season is represented by a different view.
+- Mode 4 (Press both button): It shows the weekdays of a week. The route starts from the right top corner, indicating Sunday, and ends at the left bottom corner, indicating Saturday. And on the road, each circle indicates a day from Monday to Friday. The past days show in dark red, the current day shows in bright red and the coming days show in pink.
+
+Notice: In the video, I adjust the time to speed up the video shooting.
+
+https://user-images.githubusercontent.com/50896698/135014766-752197b2-1685-4a5b-99d0-0e0d5dbbd738.mp4
+
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
