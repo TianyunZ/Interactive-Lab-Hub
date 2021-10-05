@@ -102,10 +102,20 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
+<img src="storyboard.jpg" alt="setup" width="800">
+
+
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+- Once the Pi is turned on, it will ask the user what kind of ingredients she/he wants to have today.
+- The user will speak out names of ingredients she/he wants to eat.
+- The Pi will ask for what kind of taste the user wants.
+- The user will speak out the taste.
+- The Pi will search and recommond recipe for the user based on her/his choices, and show the recipe on the screen.
+- The pi will ask the user whether to continue.
+- If the user wants to continue, the dialogue will loop, otherwise, it will end.
 
 ### Acting out the dialogue
 
