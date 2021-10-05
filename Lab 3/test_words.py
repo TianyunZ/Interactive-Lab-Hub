@@ -25,13 +25,14 @@ while True:
     if len(data) == 0:
         break
     if rec.AcceptWaveform(data):
-        print(rec.Result())
+        # print(rec.Result())
+        pass
     else:
         print(rec.PartialResult())
 
-print(rec.FinalResult())
+final = rec.FinalResult()
 with open("zipcode.txt","w") as f:
-    j = json.loads(rec.FinalResult())
+    j = json.loads(final)
     f.write(j["text"])
-    print(j["text"])
+    print(j, final)
     f.close()
