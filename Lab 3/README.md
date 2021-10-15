@@ -158,6 +158,9 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
+https://user-images.githubusercontent.com/50896698/137434172-bf2ca426-9d38-42a5-8db3-3172f96af075.mp4
+
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
