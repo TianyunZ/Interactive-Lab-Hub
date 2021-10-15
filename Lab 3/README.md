@@ -184,6 +184,7 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
+
 The system can record and recognize users' voices most of time. And based on users' words, it can give reasonable recommendation recipes. And the guesture sensor works well to detect users' wave.
 
 However, the microphone does not work very well, and users have to speak loudly and near to the microphone to make sure their voice be recorded clearly.
@@ -192,11 +193,16 @@ However, the microphone does not work very well, and users have to speak loudly 
 
 \*\**your answer here*\*\*
 
+I wrote the whole logic using SHELL and Python. The advantages are it is manual operation free and automatical. It can suggest dishes based on ingredients and tastes provided by users.
+
+However, the disadvantages is that the recipes are limited, because those are needed to add by myself. And this process cost more time than I expected. And the voice detection function is not sensitive enough to recognise low voice. 
+
+
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
 \*\**your answer here*\*\*
 
-
+I think I can use more voice control features in the interactions between users and product, since it is more convinient for users to use when they are not available to touch the product.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
