@@ -156,6 +156,19 @@ The system should:
 
 *Document how the system works*
 
+Here is the script of the interaction between a user and the system.
+
+- Pi: say "Hi. Welcome to Pi's kitchen. What food ingredients would you want?"
+- User: say words or sentences including one or several food ingredients.
+- Pi: say "Got it! What taste would you like?"
+- User: say the taste
+- Pi:
+-- Say "Great! Here are dishes I recommend for you. When you've like to choose one dish, you can wave your hand at the top of the sensor to get the detail recipe.".
+-- say dish name one by one, with a 3-second interval among each other.
+- User: Wave hands on the sensor when they want to choose a dish
+- Pi: say "Here is the recipe of [the name of the dish]", following with the detailed recipe.
+- Pi: say "Thank you for visiting Pi's kitchen. Have a nice meal."
+
 *Include videos or screencaptures of both the system and the controller.*
 
 https://user-images.githubusercontent.com/50896698/137434172-bf2ca426-9d38-42a5-8db3-3172f96af075.mp4
@@ -164,10 +177,16 @@ https://user-images.githubusercontent.com/50896698/137434172-bf2ca426-9d38-42a5-
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
+https://user-images.githubusercontent.com/50896698/137503630-c0008ea2-7b3f-4a37-840a-5327c6bae21a.mp4
+
+
 Answer the following:
 
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
+The system can record and recognize users' voices most of time. And based on users' words, it can give reasonable recommendation recipes. And the guesture sensor works well to detect users' wave.
+
+However, the microphone does not work very well, and users have to speak loudly and near to the microphone to make sure their voice be recorded clearly.
 
 ### What worked well about the controller and what didn't?
 
@@ -176,6 +195,7 @@ Answer the following:
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
 \*\**your answer here*\*\*
+
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
