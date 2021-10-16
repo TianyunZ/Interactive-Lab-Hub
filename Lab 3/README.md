@@ -169,7 +169,12 @@ Here is the script of the interaction between a user and the system.
 - Pi: say "Here is the recipe of [the name of the dish]", following with the detailed recipe.
 - Pi: say "Thank you for visiting Pi's kitchen. Have a nice meal."
 
+![storyboard2](https://user-images.githubusercontent.com/50896698/137568532-1671f1a4-20ee-4a4d-b721-c3e3f83ddf4a.jpg)
+
+
 *Include videos or screencaptures of both the system and the controller.*
+
+(The control logic is written in the program, so I only recorded the Pi in my video.)
 
 https://user-images.githubusercontent.com/50896698/137434172-bf2ca426-9d38-42a5-8db3-3172f96af075.mp4
 
@@ -204,9 +209,12 @@ However, the disadvantages is that the recipes are limited, because those are ne
 
 \*\**your answer here*\*\*
 
-I think I can use more voice control features in the interactions between users and product, since it is more convinient for users to use when they are not available to touch the product.
+I think I can use more voice control features in the interactions between users and product, since it is more convinient for users to use when they are not available to touch the product. Also, I need to consider more about user senarios, for example, in the case of cooking, users are tend to not touch the machine because their hands can be wet, and they don't want to see the screen for recipes, because it is not convinient. So that I can use more voice control and gesture control instead of pressing and touching.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\**your answer here*\*\*
 
+The system can record audio spectrums of [unk] words, and use them to train models and get more accurate recognition performance. And it can also record ingredients and tastes that are not in the recipe dataset but spoken out by users, so that to enlarge the recipe dataset. Also, the system can record audio spectrum of each user and to recognize different users' voices better.
+
+There can be a sensor to detect current temprature, and the system can suggest recipe based on the temperature. For example, when it is cold, the system will recommend more hot dishes.
