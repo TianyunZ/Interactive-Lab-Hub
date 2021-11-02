@@ -205,7 +205,9 @@ This might take a while to get fully installed. After installation, connect your
 
 ![Alt Text](img/tm.png)
 
-Design: It can be used in the smart doorbell with a camera. The doorbell will notify the house owner who is visiting, any of her friends, family, colleages or a stranger.
+Design: 
+* It can be used in the smart doorbell with a camera. The doorbell will notify the house owner who is visiting, any of her friends, family, colleages or a stranger.
+* It can be used to detect if a person is wearing a mask properly. And the device can be put at the door, so that when a person comes in the house without a mask, the device will remind her to take one on.
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
@@ -232,6 +234,12 @@ This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+
+I used TeachableMachines to detect people with masks or not.
+
+https://user-images.githubusercontent.com/50896698/139940496-b4dfc6b7-0b40-4418-9a23-e58ffd281735.mp4
+
+
 
 ### Part C
 ### Test the interaction prototype
@@ -263,6 +271,8 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+
 
 ### Part 2.
 
