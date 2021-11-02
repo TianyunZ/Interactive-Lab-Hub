@@ -104,17 +104,25 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 ![Alt Text](img/contour_dtc.png)
 
+Design: It can be used to make virtual background and add filters on users' faces.
+
 * face-detection
 
 ![Alt Text](img/face_dtc.png)
+
+Design: Greeting doorbell. The doorbell will say greeting words when it detects a human face in front of it.
 
 * flow-detection
 
 ![Alt Text](img/flow_dtc.png)
 
+Design: It can be used in games. The play needs to follow the game instruction to dance or do certain movement, and the flow detection can ckeck the degree of completion the player takes.
+
 * object-detection
 
 ![Alt Text](img/obj_dtc.png)
+
+Design: It can be used to automatic goods counting. When we buy many things at the same time online, we can use object detection to do a pre counting of goods, so that to make sure there is no package left. This design can also be used in express distribution centers.
 
 #### MediaPipe
 
@@ -154,7 +162,14 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
+The position based approach can be used to detect complexed gestures, such as thumbs up, pointing, hands up, OK, and using fingers to indicate numbers. 
+* Those signals can be used as the input instruction for Pi. For example, when people are cooking, or doing skin care, it's not convinient for them to press buttons, so that they can make gestures to control Pi.
 
+* Also, the direction of pointing can be used to point a certain object, combining with object detection. If the direction of finger is on the same direction of an object, it means the user is pointing that object.
+
+![Alt Text](hand_pose.png)
+
+![Alt Text](hand_pose2.png)
 
 #### Teachable Machines
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple. However, its simplicity is very useful for experimenting with the capabilities of this technology.
