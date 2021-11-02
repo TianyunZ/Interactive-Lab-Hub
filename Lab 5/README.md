@@ -167,9 +167,9 @@ The position based approach can be used to detect complexed gestures, such as th
 
 * Also, the direction of pointing can be used to point a certain object, combining with object detection. If the direction of finger is on the same direction of an object, it means the user is pointing that object.
 
-![Alt Text](hand_pose.png)
+![Alt Text](img/hand_pose.png)
 
-![Alt Text](hand_pose2.png)
+![Alt Text](img/hand_pose2.png)
 
 #### Teachable Machines
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple. However, its simplicity is very useful for experimenting with the capabilities of this technology.
@@ -204,6 +204,8 @@ This might take a while to get fully installed. After installation, connect your
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
 
 ![Alt Text](img/tm.png)
+
+Design: It can be used in the smart doorbell with a camera. The doorbell will notify the house owner who is visiting, any of her friends, family, colleages or a stranger.
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
