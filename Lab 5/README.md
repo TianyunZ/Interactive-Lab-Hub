@@ -299,6 +299,10 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
+Pi acts as a mask detector in front of the door of a restauruant. So that it will alarm the customer if she is not wearing a mask before entering the restauruant.
+
+I divided the class into three clusters, mask, no mask and background, so that the Pi wouldn't predict a "no mask" class when there is no one in front of the door.
+
 It seems there is something wrong with my microphone, and it cannot make sounds. Still, I wrote the code of speaking in my repository. And I use my voice to demostrate the effect of microphone voice. 
 
 https://user-images.githubusercontent.com/50896698/140966488-b8c6fc07-9d3a-4801-b593-92720c58b0b2.mp4
