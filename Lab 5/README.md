@@ -167,9 +167,9 @@ The position based approach can be used to detect complexed gestures, such as th
 
 * Also, the direction of pointing can be used to point a certain object, combining with object detection. If the direction of finger is on the same direction of an object, it means the user is pointing that object.
 
-![Alt Text](hand_pose.png)
+![Alt Text](img/hand_pose.png)
 
-![Alt Text](hand_pose2.png)
+![Alt Text](img/hand_pose2.png)
 
 #### Teachable Machines
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple. However, its simplicity is very useful for experimenting with the capabilities of this technology.
@@ -205,6 +205,10 @@ This might take a while to get fully installed. After installation, connect your
 
 ![Alt Text](img/tm.png)
 
+Design: 
+* It can be used in the smart doorbell with a camera. The doorbell will notify the house owner who is visiting, any of her friends, family, colleages or a stranger.
+* It can be used to detect if a person is wearing a mask properly, during the pandemic period. And the device can be put at the door, so that when a person comes in the house without a mask, the device will remind her to take one on.
+
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
 
@@ -231,21 +235,45 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+I used TeachableMachines to detect people with masks or not.
+
+https://user-images.githubusercontent.com/50896698/139940496-b4dfc6b7-0b40-4418-9a23-e58ffd281735.mp4
+
+
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+It supposes to detect wether the person is wearing a mask properly.
+
+2. When does it fail?
+
+When the user's face is partially hidden, it's hard to detect the mask even the user is wearing one.
+
+3. When it fails, why does it fail?
+
+Because the classifier cannot see the mask.
+
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+The scenarios that a user is not wearing a mask properly, such as the mask does not cover his nose, or he puts the mask on his forehead for some reeasons, those will be detected as the user is wearing a mask, which should not be the case.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+I think they won't aware of the uncertainties in the system.
+
+2. How bad would they be impacted by a miss classification?
+
+The bad situation is a user not wearing a mask properly walks into a resturant and there will be a risk of COVID spreading.
+
+3. Are there optimizations you can try to do on your sense-making algorithm.
+
+I will add more training images in the class of wearing masks inproperly, so that the system will learn how to classify more correctly.
 
 ### Part D
 ### Characterize your own Observant system
@@ -261,6 +289,9 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+https://user-images.githubusercontent.com/50896698/139946431-d1b0fb5b-f1a8-498a-a362-cbae02c4f10b.mp4
+
 
 ### Part 2.
 
