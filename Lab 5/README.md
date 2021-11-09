@@ -298,3 +298,9 @@ https://user-images.githubusercontent.com/50896698/139946431-d1b0fb5b-f1a8-498a-
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+It seems there is something wrong with my microphone, and it cannot make sounds. Still, I wrote the code of speaking in my repository. And I use my voice to demostrate the effect of microphone voice. 
+
+https://user-images.githubusercontent.com/50896698/140966488-b8c6fc07-9d3a-4801-b593-92720c58b0b2.mp4
+
+
